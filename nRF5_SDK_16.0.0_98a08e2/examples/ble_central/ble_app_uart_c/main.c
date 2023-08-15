@@ -65,6 +65,7 @@
 #include "time_sync.h"
 #include "nrf_gpiote.h"
 #include "nrf_ppi.h"
+#include "nrfx_ppi.h"
 #include "nrf_timer.h"
 
 
@@ -821,7 +822,7 @@ int main(void)
     sync_timer_init();
 
     // Start execution.
-    printf("BLE UART central example started.\r\n");
+    //printf("BLE UART central example started.\r\n");
     NRF_LOG_INFO("BLE UART central example started.");
     scan_start();
 

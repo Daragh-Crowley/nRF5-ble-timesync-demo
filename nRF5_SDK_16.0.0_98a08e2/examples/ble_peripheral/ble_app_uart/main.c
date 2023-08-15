@@ -855,7 +855,7 @@ int main(void)
     sync_timer_init();
 
     // Start execution.
-    printf("\r\nUART started.\r\n");
+    //printf("\r\nUART started.\r\n");
     NRF_LOG_INFO("Debug logging for UART over RTT started.");
     advertising_start();
 
